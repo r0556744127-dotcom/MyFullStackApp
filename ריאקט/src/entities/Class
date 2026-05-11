@@ -1,0 +1,25 @@
+{
+  "$id": "Class.json",
+  "type": "object",
+  "properties": {
+    "Id": { "type": "integer" },
+    "Name": { "type": "string" },
+   "Students":
+  {
+    "type":"array",
+     "items": { "$ref": "Student.json" }
+  },
+  "LessonCategories":
+  {
+    "type":"array",
+     "items": { "$ref": "LessonCategories.json" }
+  }
+  
+  },
+  "required": [
+    "Id",
+    "Name",
+    "Students",
+    "LessonCategories"
+  ]
+}

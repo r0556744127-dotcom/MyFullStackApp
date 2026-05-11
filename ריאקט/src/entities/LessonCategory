@@ -1,0 +1,23 @@
+{
+  "$id": "Lesson.json",
+  "type": "object",
+  "properties": {
+    "Id": { "type": "integer" },
+    "Name": { "type": "string" },
+    "ClassRoomId": { "type": "string", "format": "date-time" },
+    "ClassRoom": {
+      "items": { "$ref": "ClassRoom.json" }
+    },
+     "Lessons": {
+      "type": "array",
+      "items": { "$ref": "Lesson.json" }
+    }
+  },
+  "required": [
+    "Id",
+    "Name",
+    "ClassRoomId",
+    "ClassRoom",
+    "Lessons"
+  ]
+}

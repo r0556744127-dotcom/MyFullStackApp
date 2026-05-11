@@ -1,0 +1,25 @@
+{
+  "$id": "Class.json",
+  "type": "object",
+  "properties": {
+    "Id": { "type": "integer" },
+    "Title": { "type": "string" },
+    "DueDate": { "type": "string", "format": "date-time" },
+    "FilePath":{ "type": "string" },
+    "LessonId": { "type": "integer" },
+"Lesson":
+  {     "items": { "$ref": "Lesson.json" }} ,
+  "Submissions":
+  {
+    "type":"array",
+     "items": { "$ref": "Submission.json" }
+  }
+  
+  },
+  "required": [
+    "Id",
+    "Title",
+    "DueDate",
+    "Submissions"
+  ]
+}

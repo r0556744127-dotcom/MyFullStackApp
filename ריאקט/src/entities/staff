@@ -1,0 +1,33 @@
+{
+    "$id":"staff.json",
+    "allOf":[
+        {"$ref" :"User.json"},
+        {
+            "type":"object",
+            "properties":{
+                "Lessons":{
+                "type":"array",
+                "items": { "$ref": "Lesson.json" }
+                },
+                  "Classes":{
+                "type":"array",
+                "items": { "$ref": "Class.json" }
+                },
+                "Role":{
+                    "type":"string",
+                    "enum":["Teacher","Admin"]
+                }
+
+                
+                
+                
+            },
+              "required":["Lessons","Classes","Role"]
+            
+        }
+        
+    ]
+    
+
+
+}

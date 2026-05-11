@@ -1,0 +1,20 @@
+{
+  "$id": "Student.json",
+  "allOf": [
+    { "$ref": "User.json" },
+    {
+      "type": "object",
+      "properties": {
+        "class_id": { "type": "integer" },
+        "submissions": {
+          "type": "array",
+          "items": { "$ref": "Submission.json" }
+        },
+        "ClassRoom": {
+          "$ref": "Class.json"
+        }
+      },
+      "required": ["ClassRoom", "class_id"]
+    }
+  ]
+}

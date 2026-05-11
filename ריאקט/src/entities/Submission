@@ -1,0 +1,43 @@
+{
+  "name": "Submission",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "StudentId": {
+      "type": "integer"
+    },
+    "Student": {
+      "$ref":"Student.json"
+    },
+    "AssignmentId": {
+      "type": "integer"
+    },
+    "Assignment": {
+        "$ref":"Assignment.json"
+    },
+    "FilePath": {
+      "type": "string"
+    },
+    "SubmittedAt": {
+      "type": "Date"
+    },
+    "grade": {
+      "type": "integer"
+    },
+    "TeacherComment": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Id",
+    "StudentId",
+    "Student",
+    "AssignmentId",
+    "Assignment",
+    "FilePath",
+    "SubmittedAt",
+    "TeacherComment"
+  ]
+}

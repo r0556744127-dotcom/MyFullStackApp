@@ -1,0 +1,35 @@
+{
+  "$id": "Lesson.json",
+  "type": "object",
+  "properties": {
+    "idLesson": { "type": "integer" },
+    "titelLesson": { "type": "string" },
+    "dateLesson": { "type": "string", "format": "date-time" },
+    "recordingLink": { "type": "string", "format": "uri" },
+    "lessonCategoryId": { "type": "integer" },
+    "classRoomId": { "type": "integer" },
+    "teacherId": { "type": "integer" },
+    "assignments": {
+      "type": "array",
+      "items": { "$ref": "Assignment.json" }
+    },
+    "transcript": { "type": ["string", "null"] },
+    "summary": { "type": ["string", "null"] },
+     "LessonCategory": { "$ref": "LessonCategory.json" },
+     "ClassRoom": { "$ref": "ClassRoom.json" },
+     "Teacher": { "$ref": "Staff.json" }
+  },
+  "required": [
+    "idLesson",
+    "titelLesson",
+    "dateLesson",
+    "recordingLink",
+    "LessonCategory",
+    "lessonCategoryId",
+    "classRoomId",
+    "ClassRoom",
+    "teacherId",
+    "Teacher",
+    "assignments"
+  ]
+}
