@@ -27,3 +27,7 @@ LocalDB/
 *.mov
 *.zip
 *.exe
+**/wwwroot/Uploads/
+**/Submissions/
+**/wwwroot/Uploads/
+**/Submissions/
