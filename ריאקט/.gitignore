@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# להתעלם מספריות של ריאקט
+node_modules/
+dist/
+build/
+
+# להתעלם מקבצי קימפול של C#
+bin/
+obj/
+
+# להתעלם מקבצי הגדרות אישיים של Visual Studio
+.vs/
+*.user
