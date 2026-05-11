@@ -34,3 +34,4 @@ obj/
 # להתעלם מקבצי הגדרות אישיים של Visual Studio
 .vs/
 *.user
+**/wwwroot/videos/
