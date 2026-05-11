@@ -1,0 +1,102 @@
+﻿<!--<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\codeFirst.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\codeFirst.GlobalUsings.g.cs" />
+    <Compile Include="obj\Release\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net7.0\codeFirst.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net7.0\codeFirst.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\codeFirst.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net7.0\codeFirst.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net7.0\codeFirst.sourcelink.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MailKit" Version="4.15.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.20">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Ninject" Version="3.3.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Repositories\Repositories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="codeFirst\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="obj\Release\net7.0\refint\" />
+    <Folder Include="obj\Release\net7.0\ref\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\codeFirst.csproj.EntityFrameworkCore.targets" />
+    <None Include="obj\codeFirst.csproj.nuget.g.props" />
+    <None Include="obj\codeFirst.csproj.nuget.g.targets" />
+    <None Include="obj\codeFirst.EntityFrameworkCore.targets" />
+    <None Include="obj\Debug\net7.0\apphost.exe" />
+    <None Include="obj\Debug\net7.0\codeFirst.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\codeFirst.assets.cache" />
+    <None Include="obj\Debug\net7.0\codeFirst.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\codeFirst.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net7.0\codeFirst.csproj.CopyComplete" />
+    <None Include="obj\Debug\net7.0\codeFirst.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0\codeFirst.csproj.Up2Date" />
+    <None Include="obj\Debug\net7.0\codeFirst.dll" />
+    <None Include="obj\Debug\net7.0\codeFirst.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0\codeFirst.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net7.0\codeFirst.pdb" />
+    <None Include="obj\Debug\net7.0\refint\codeFirst.dll" />
+    <None Include="obj\Debug\net7.0\ref\codeFirst.dll" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net7.0\codeFirst.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net7.0\codeFirst.assets.cache" />
+    <None Include="obj\Release\net7.0\codeFirst.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\net7.0\codeFirst.GeneratedMSBuildEditorConfig.editorconfig" />
+  </ItemGroup>
+
+</Project>-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+		<PackageReference Include="Azure.Storage.Blobs" Version="12.27.0" />
+		<PackageReference Include="MailKit" Version="4.15.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.20">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Ninject" Version="3.3.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Repositories\Repositories.csproj" />
+	</ItemGroup>
+
+</Project>
