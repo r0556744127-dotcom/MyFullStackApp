@@ -133,8 +133,7 @@
 ### ⏳ צפייה בשיעור אחרי הגשה — טרם נבדק
 > התלמיד הגיש את המטלה — המערכת מציגה סטטוס "טרם נבדק ע״י המורה"
 
-<img width="1920" height="1080" alt="הגשה לפני בדיקה" src="https://github.com/user-attachments/assets/9dc1a65f-12c3-4d65-856a-cab4588d01ff" />
-
+<img width="1920" height="1080" alt="הגשה לפני בדיקה" src="https://github.com/user-attachments/assets/7e412e9f-100e-4edc-8b73-560aee8ec7cb" />
 <br/><br/>
 
 ### 👁️ המורה צופה בהגשות
